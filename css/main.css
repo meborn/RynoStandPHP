@@ -1,0 +1,99 @@
+/*==========Fonts==========*/
+
+.bold_serif {
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 900;
+}
+
+.sans_serif_lite {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.sans_serif_bold {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.light_text {
+	color:#ededed;
+}
+
+.dark_text {
+	color:#000;
+}
+
+.orange_text {
+	color: #f69420;
+}
+
+/*==========Fonts==========*/
+
+/*==========Buttons==========*/
+
+.dark_clear_btn {
+	background-color: transparent;
+	border:2px solid #000;
+	color:#000;
+	display: block;
+	width:100%;
+	max-width: 300px;
+	margin: 0px auto;
+	margin-top: 30px;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 22px;
+}
+
+.dark_clear_btn:hover, .light_clear_btn:hover {
+	text-decoration: none;
+	color:#f69420;
+	border:2px solid #f69420;
+}
+
+.light_clear_btn {
+	background-color: transparent;
+	border:2px solid #ededed;
+	color:#ededed;
+	display: block;
+	width:100%;
+	max-width: 300px;
+	margin: 0px auto;
+	margin-top: 30px;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 22px;
+}
+
+/*==========Buttons==========*/
+
+/*==========Header==========*/
+
+.inline_header {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.lg_header {
+	font-size: 52px;
+}
+
+/*==========Header==========*/
+
+body {
+	background-color: #ededed;
+}
+
+.vcenter {
+	display: inline-block;
+	float: none;
+	vertical-align: middle;
+}
+
+.light_bg {
+	background-color: #ededed;
+}
+
+.pad_top {
+	margin-top: 30px;
+}
